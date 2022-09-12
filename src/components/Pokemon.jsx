@@ -15,8 +15,8 @@ export const Pokemon = ({ name, url, showInfo }) => {
     <div className="pokemon">
       <div className="pokemon-column">
         <h2 className="pokemon-name">
-          {' '}
-          {pokemonNumber} - {name}
+          {/* mostrar el numero del pokemon y su nombre */} {pokemonNumber} -{' '}
+          {name}
         </h2>
         <div className="pokemon-action">
           <button onClick={() => showInfo(url)}>Ver Ficha</button>
